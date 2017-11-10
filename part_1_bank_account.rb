@@ -1,8 +1,6 @@
 puts '-' * 10
 puts '-' * 10
 
-
-
 class BankAccount
 
   @@interest_rate = 0.22
@@ -43,8 +41,6 @@ class BankAccount
     end
   end
 
-
-
   def reader_balance
     @balance
   end
@@ -58,22 +54,15 @@ class BankAccount
   end
 end
 
-
-
 BankAccount.create
 BankAccount.create
 BankAccount.create
-
 
 puts BankAccount.total_funds
 
 BankAccount.interest_time
 
 puts BankAccount.total_funds
-
-
-
-
 
 puts '-' * 10
 puts '-' * 10
